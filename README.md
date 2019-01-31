@@ -2,7 +2,7 @@
 
 Visualize your Apple healthkit stepcounts as a calendar headmap. 
 
-![Step Count]('stepcount_heatmap/StepCount.png')
+![Step Count]('https://github.com/th3o6a1d/stepcount_heatmap/blob/master/StepCount.png')
 
 Citations: 
 
