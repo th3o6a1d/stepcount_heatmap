@@ -2,7 +2,7 @@
 
 Visualize your Apple healthkit stepcounts as a calendar headmap. 
 
-![Step Count]('/StepCount.png')
+![Step Count]('stepcount_heatmap/StepCount.png')
 
 Citations: 
 
@@ -12,17 +12,19 @@ Citations:
 
 ## Usage
 
-`virtualenv apple_health`
+Export your apple health data. `mkdir data` and put exported xml data in folder.
 
 Start virtual environment
 
+`virtualenv apple_health`
+
 `source apple_health/bin/activate`
 
-Install dependencies
+Install dependencies. Will need the usual stuff plus calmap package.
 
 `pip3 install requirements.txt`
 
-Parse the health data to CSV
+Parse the health data to CSV using script borrrowed from above link.
 
 `python3 parse_health.py <apple health data.xml>`
 
