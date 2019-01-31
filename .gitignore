@@ -1,3 +1,5 @@
 .ipynb_checkpoints
-data
+data/*.csv
+data/*.xml
+!data/StepCount.csv
 healthdata
