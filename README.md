@@ -12,22 +12,10 @@ Citations:
 
 ## Usage
 
-Export your apple health data. `mkdir data` and put exported xml data in folder.
+- Export your apple health data. `mkdir data`. Convert the data from xml to csv using `python3 parse_health.py <apple health data.xml>`. Put the exported csv files in the data directory.
 
-Start virtual environment
+- Start virtual python environment. `virtualenv apple_health; source apple_health/bin/activate`
 
-`virtualenv apple_health`
+- Install dependencies. Will need the usual stuff plus calmap package. `pip3 install requirements.txt`
 
-`source apple_health/bin/activate`
-
-Install dependencies. Will need the usual stuff plus calmap package.
-
-`pip3 install requirements.txt`
-
-Parse the health data to CSV using script borrrowed from above link.
-
-`python3 parse_health.py <apple health data.xml>`
-
-Start jupiter notebook
-
-`jupyter notebook`
+- Start jupiter notebook. `jupyter notebook`
